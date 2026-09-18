@@ -1,11 +1,11 @@
 package com.walletapi.walletapi.web;
 
+import com.walletapi.walletapi.web.dto.CrearCuentaRequest;
+import com.walletapi.walletapi.web.dto.MontoRequest;
 import tools.jackson.databind.ObjectMapper;
 import com.walletapi.walletapi.application.AccountService;
 import com.walletapi.walletapi.domain.Account;
 import com.walletapi.walletapi.domain.exception.SaldoInsuficienteException;
-import com.walletapi.walletapi.web.dto.CrearCuentaRequest;
-import com.walletapi.walletapi.web.dto.MontoRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -20,7 +20,7 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest(com.walletapi.walletapi.web.AccountController.class)
+@WebMvcTest(AccountController.class)
 class AccountControllerTest {
 
     @Autowired

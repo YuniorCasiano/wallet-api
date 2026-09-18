@@ -1,4 +1,4 @@
-package com.walletapi.walletapi.web1;
+package com.walletapi.walletapi.web;
 
 import com.walletapi.walletapi.application.TransferenciaService;
 import com.walletapi.walletapi.domain.Transaction;
