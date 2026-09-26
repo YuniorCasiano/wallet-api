@@ -1,5 +1,7 @@
 # Wallet API
 
+![CI](https://github.com/YuniorCasiano/wallet-api/actions/workflows/ci.yml/badge.svg)
+
 Mini sistema bancario construido en Spring Boot, con foco principal en **testing profesional**: JUnit 5, Mockito, `@DataJpaTest`, MockMvc y Testcontainers, todo probado contra una arquitectura en capas real, no contra un ejemplo de juguete.
 
 ## Qué se construyó
